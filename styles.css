@@ -295,6 +295,9 @@ p strong { color: var(--ink); font-weight: 600; }
   position: relative;
   overflow: hidden;
   vertical-align: top;
+  padding-bottom: .12em;
+  /* Drop the mask after the reveal so descenders (g, y, j) aren't clipped */
+  animation: unmask 0s linear 1.8s forwards;
 }
 .hero h1 .word > span {
   display: inline-block;
@@ -303,6 +306,9 @@ p strong { color: var(--ink); font-weight: 600; }
 }
 .hero h1 .word.w1 > span { animation-delay: .35s; }
 .hero h1 .word.w2 > span { animation-delay: .55s; }
+@keyframes unmask {
+  to { overflow: visible; }
+}
 
 @keyframes revealUp {
   0%   { transform: translateY(110%); }
@@ -455,6 +461,7 @@ p strong { color: var(--ink); font-weight: 600; }
   .scroll-cue, .scroll-cue::after, .hero-meta .dot::after {
     animation: none !important;
   }
+  .hero h1 .word { overflow: visible !important; }
   .hero h1 .word > span { transform: none !important; }
   .portrait img { clip-path: none !important; }
   .portrait::before { clip-path: none !important; }
