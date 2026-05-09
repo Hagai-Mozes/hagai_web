@@ -218,6 +218,8 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then((buf) => {
+  // Source-of-truth .docx stays at the repo root (not deployed).
+  // The PDF rendered from it is what the site links to, in /public.
   fs.writeFileSync('/Users/shochhauser/hagai_web/Hagai_Mozes_CV.docx', buf);
   console.log('Wrote Hagai_Mozes_CV.docx (' + buf.length + ' bytes)');
 });
