@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hagai Mozes — Software Developer</title>
+<meta name="description" content="Software developer specializing in networking and firmware. Building production-grade AI agents and tools at NVIDIA.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-family='Georgia' font-size='18' fill='%23FFFDF8' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,30..100;1,9..144,300..700,30..100&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="shell nav-inner">
+    <a href="#top" class="brand">
+      <span class="mark">HM</span>
+      <span>Hagai Mozes</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#personal">Personal</a>
+      <a href="#projects">Projects</a>
+      <a href="cv.html">CV</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4"/>
+        <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============== HERO ============== -->
+<section class="hero shell" aria-label="Introduction">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="hero-meta">
+        <span class="dot"></span>
+        Tel Aviv, Israel
+        <span style="opacity:.5;">/</span>
+        Available for collaboration
+      </p>
+      <h1>
+        <span class="word w1"><span>Hagai</span></span><br>
+        <span class="word w2"><span class="ink2">Mozes</span></span>
+      </h1>
+      <p class="hero-tag">
+        Software developer specializing in networking and firmware — building production-grade AI agents and tools at NVIDIA.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn primary">
+          See projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="cv.html" class="btn">
+          View CV
+        </a>
+      </div>
+    </div>
+    <div class="portrait" aria-hidden="false">
+      <img src="assets/portrait.jpg" alt="Hagai Mozes holding his son Ethan on a beach at golden hour.">
+    </div>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Scroll</span>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section id="about" class="shell">
+  <div class="two-col">
+    <div class="reveal">
+      <span class="eyebrow">About</span>
+      <h2>The seam between physics and abstraction.</h2>
+    </div>
+    <div class="reveal">
+      <p class="lede">An electrical signal flips a transistor. A handful of gates become a flip-flop, a few thousand of those become an arithmetic unit — and somehow all of that quiet physics becomes a machine capable of running software. That vertical climb still amazes me.</p>
+      <p>I'm happiest <strong>debugging at the bit level</strong> — watching the lowest layers behave, finding where the abstraction is leaking, and reshaping the bits underneath it. There's a particular kind of clarity that only shows up once you stop trusting the layer above.</p>
+      <p>The same intersection is where <strong>computer security</strong> gets most interesting to me: nearly every memorable attack ultimately lives at the seam between hardware and software — a side channel, a speculative leak, a firmware assumption the application code never made.</p>
+      <p>Working as a <strong>firmware engineer</strong> puts me right on that boundary. Day to day, I'm translating between physics and abstraction — and I think that's the most exciting place a software engineer can stand.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== INTERESTS ============== -->
+<section id="interests" class="shell">
+  <div class="reveal">
+    <span class="eyebrow">Professional interests</span>
+    <h2>Four domains I keep coming back to.</h2>
+  </div>
+
+  <div class="domains">
+    <div class="domain reveal">
+      <span class="domain-no">01</span>
+      <h3>Networking</h3>
+      <p>The first domain I went deep on at <strong>NVIDIA</strong> — firmware verification for Co-Packaged Optics, where the way data physically moves between chips is being reinvented. Working there gives me a daily feel for what it takes to keep modern networks fast, reliable and observable.</p>
+    </div>
+    <div class="domain reveal">
+      <span class="domain-no">02</span>
+      <h3>Cybersecurity</h3>
+      <p>My CS specialization at <strong>Tel Aviv University</strong>, and the field I find most fascinating intellectually. Cryptography, kernel and systems security, network attacks — everything that happens at the bit level when an adversary is on the other side.</p>
+    </div>
+    <div class="domain reveal">
+      <span class="domain-no">03</span>
+      <h3>AI</h3>
+      <p>I build with frontier models in production, not just in demos — moving prototypes through to real workflows that other engineers rely on, while staying close enough to the research to bring new techniques back to the team.</p>
+    </div>
+    <div class="domain reveal">
+      <span class="domain-no">04</span>
+      <h3>Agents</h3>
+      <p>The piece I'm most excited about right now — designing autonomous systems that can plan, use tools and act on real engineering surfaces. Lots of experimentation with new patterns, lots of shipping what works.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PERSONAL ============== -->
+<section id="personal" class="shell">
+  <div class="reveal">
+    <span class="eyebrow">Outside of work</span>
+    <h2>A few things that shape the rest.</h2>
+  </div>
+  <div class="personal-grid">
+    <div class="note reveal">
+      <span class="glyph">✦</span>
+      <h3>Family.</h3>
+      <p>Husband to <strong>Shiri</strong>, father to <strong>Ethan</strong>. Most of what I learn about patience, presence and persistence I learn at home first.</p>
+    </div>
+    <div class="note reveal">
+      <span class="glyph">↗</span>
+      <h3>Travel.</h3>
+      <p>I love seeing how the world is put together — different cities, different landscapes, different ways of doing the same ordinary things. Best ideas tend to arrive somewhere far from a desk.</p>
+    </div>
+    <div class="note reveal">
+      <span class="glyph">∞</span>
+      <h3>Always learning.</h3>
+      <p>New technologies, new domains, new tools. The fun has always been in the moment a strange topic clicks into something I can build with.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROJECTS ============== -->
+<section id="projects" class="shell">
+  <div class="projects-head reveal">
+    <div>
+      <span class="eyebrow">Open source</span>
+      <h2 style="margin-bottom: .5rem;">Selected GitHub projects.</h2>
+      <p style="margin: 0; color: var(--muted); font-size: .95rem;">Pulled live from <span style="font-family: var(--mono); color: var(--accent);">@Hagai-Mozes</span>.</p>
+    </div>
+    <a class="ghost" href="https://github.com/Hagai-Mozes" target="_blank" rel="noopener">View all on GitHub →</a>
+  </div>
+
+  <div id="repos" class="repos reveal">
+    <div class="skel"></div>
+    <div class="skel"></div>
+    <div class="skel"></div>
+  </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<section id="contact" class="contact shell">
+  <div class="reveal">
+    <span class="eyebrow">Get in touch</span>
+    <h2>Let’s build something.</h2>
+    <p class="lede" style="margin: 0 auto; max-width: 36ch;">Open to interesting problems at the edge of hardware, firmware and intelligent software.</p>
+    <div class="links">
+      <a href="mailto:hagimo@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        hagimo@gmail.com
+      </a>
+      <a href="https://github.com/Hagai-Mozes" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.4-1.27.74-1.56-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.93 10.93 0 015.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.79.56A11.5 11.5 0 0012 .5z"/></svg>
+        github.com/Hagai-Mozes
+      </a>
+      <a href="https://www.linkedin.com/in/hagai-mozes-7b03451bb/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8.34 18H5.67V9.67h2.67V18zM7 8.5a1.55 1.55 0 110-3.1 1.55 1.55 0 010 3.1zM18.34 18h-2.67v-4.05c0-.97-.02-2.21-1.35-2.21-1.35 0-1.56 1.05-1.56 2.14V18h-2.67V9.67h2.56v1.14h.04c.36-.68 1.23-1.4 2.54-1.4 2.71 0 3.21 1.79 3.21 4.11V18z"/></svg>
+        linkedin.com/in/hagai-mozes
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="shell">
+  <span>© <span id="year"></span> Hagai Mozes</span>
+  <span>Tel Aviv · Always learning</span>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

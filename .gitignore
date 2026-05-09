@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+node_modules/
+
+# Build / preview artefacts
+cv_preview-*.jpg
+
+# Office lock files
+~$*.docx
+~$*.pdf
+~$*
