@@ -744,7 +744,7 @@ footer {
   font-family: var(--serif);
   font-style: italic;
   font-size: 1.05rem;
-  margin-top: .8rem;
+  margin: .8rem auto 1rem;
   color: var(--ink-soft);
 }
 .cv-contact {
