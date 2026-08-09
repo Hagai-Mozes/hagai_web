@@ -116,7 +116,7 @@ const experience = [
   bullet('Ideated, built, and productionized CPO Monitor — an AI-assisted diagnostics and remediation tool for laser and system status — adopted broadly across CPO engineering teams.'),
   bullet('Won 2nd place in the NVIDIA Networking Hackathon for the original CPO Monitor concept.'),
   bullet('Owned Memory Map Validator end-to-end: core functionality, Confluence-based requirements tracking, automation, maintenance, user support, and reporting for production, hardware, and design LinkX teams.'),
-  bullet('–	Built an autonomous PHY agent that takes firmware tickets from intake to code review without supervision, operating under its own identity across communication channels, hardware access, MCP, CLI, memory and skills.'),
+  bullet('Built an autonomous PHY agent that takes firmware tickets from intake to code review without supervision, operating under its own identity across communication channels, hardware access, MCP, CLI, memory and skills.'),
   bullet('Enabled other engineers through training, internal demos, and hands-on knowledge sharing to accelerate broader team adoption of AI-enabled monitoring and debugging workflows.'),
 
   roleRow('Intel', '  SoC Physical Design Backend Developer, C2DG Core Group  ·  Student Position', '2021 — 2023'),
